@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='uploadossfile',
-    version='0.1.1',
+    version='0.1.2',
     description='upload oss file',
     classifiers=[
         'License :: OSI Approved :: MIT License',
@@ -12,10 +12,10 @@ setup(
         'Operating System :: OS Independent',
     ],
     author='ivan',
-    url='https://github.com',
+    url='https://github.com/goupper/upload-oss-file',
     author_email='chongwuwy@163.com',
     license='MIT',
-    packages=find_packages(),  # 需要处理哪里packages，当然也可以手动填，例如['pip_setup', 'pip_setup.ext']
+    packages=find_packages('uploadOss'),
     include_package_data=False,
     zip_safe=True,
 )
