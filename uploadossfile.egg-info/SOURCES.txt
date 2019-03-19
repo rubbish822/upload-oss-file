@@ -1,0 +1,7 @@
+README.md
+setup.py
+uploadossfile.egg-info/PKG-INFO
+uploadossfile.egg-info/SOURCES.txt
+uploadossfile.egg-info/dependency_links.txt
+uploadossfile.egg-info/top_level.txt
+uploadossfile.egg-info/zip-safe
