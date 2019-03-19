@@ -10,7 +10,6 @@ log/*
 *.prof
 *.jpg
 *.pdf
-*.txt
 .vagrant
 thrift_gen/
 __pycache__/
