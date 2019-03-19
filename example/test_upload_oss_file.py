@@ -1,9 +1,3 @@
-### 上传阿里云oss文件
-####安装
-pip install uploadossfile
-
-### 使用方法:
-```
 # coding: utf-8
 import typing
 
@@ -34,8 +28,3 @@ def upload_file(
         if_have_key=if_have_key, doc_name=doc_name
     )
     return unquote_gbk(file_url)
-```
-
-
-
-
